@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.semi-circle{
+  width: 200px;
+  height: 100px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 10px solid #000;
+  border-bottom: 0;
+  }
+header {
+    background-image: url(https://5ergiveaways.com/wp-content/uploads/2021/09/BG-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 700px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    /* background-image: linear-gradient(to bottom, #000, #333);
+    background-size: cover;
+    height: 100vh; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 75px;
+    
+}
+
+/* .hero h1 {
+    font-size: 48px;
+} */
+
+.hero button {
+    /* background-color: #fff; */
+    color: #f3eeee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.text-center button{
+    color: #f3eeee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.text-center input{
+    padding: 11px;
+   
+    width: 400px;
+    border-radius: 15px;
+}
+.hero input{
+    padding: 11px;
+   
+    width: 400px;
+    border-radius: 15px;
+}
+.content {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.card-body{
+    background: #200202;
+    background: linear-gradient(110deg,#200202 0%, #000274 80%);
+    background: -webkit-linear-gradient(110deg,#200202 0%, #000274 80%);
+    background: -moz-linear-gradient(110deg,#200202 0%, #000274 80%);
+}
+
+/* footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+} */
+
+
+.carousel-container {
+    width: 100%;
+    
+    position: relative;
+    
+  }
+  
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  .carousel-card {
+    scroll-snap-align: center;
+    margin: 10px;
+    width: 200px;
+    flex-shrink: 0;
+  }
+  
+  .carousel-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carousel-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 5px;
+    border-radius: 15px;
+    padding: 0.5%;
+  }
+  
+  .next-btn {
+    right: 5px;
+    border-radius: 15px;
+    padding: 0.5%;
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: #ddd;
+  }
+
+  .carousel {
+    /* ... existing styles ... */
+    overflow-x: hidden; /* Add this */
+  }
+  footer{
+    background-color: black;
+  }
+  footer a {
+    color: aqua;
+  }
+  
